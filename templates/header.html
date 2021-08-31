@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>
+      {% if title=="About"%}
+      About | Andre.com
+      {% elif title=="Contact"%}
+      Contact | Andre.com
+      {% else %}
+      Andre.com
+      {% endif %}
+    </title>
+  </head>
+  <body>     
+    <h1>Today is {{weather}}</h1>
+    <a href="/">Homepage</a>
+    <a href="/about">About</a> 
+    <a href="/contact">Contact</a>
